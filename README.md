@@ -1,28 +1,21 @@
-# Adonis API application
-
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
-
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
+# Dare Assessment API - Created by Djulian
 
 ## Setup
 
-Use the adonis command to install the blueprint
+Clone the repo and then run `npm install`.
 
-```bash
-adonis new yardstick --api-only
-```
+Configure your .env file on root folder like the .env.example
 
-or manually clone the repo and then run `npm install`.
-
-
-### Migrations
+## Migrations
 
 Run the following command to run startup migrations.
 
 ```js
 adonis migration:run
+```
+
+## Starting the API
+
+```js
+adonis serve --dev
 ```
