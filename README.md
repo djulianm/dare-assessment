@@ -6,7 +6,7 @@ Clone the repo and then run `npm install`.
 
 Configure your .env file on root folder like the .env.example
 
-Create the mysql database as informed on .env file
+Create a mysql database with the same name as informed on .env file
 
 ## Migrations
 
