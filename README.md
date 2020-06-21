@@ -4,9 +4,11 @@
 
 Clone the repo and then run `npm install`.
 
-Configure your .env file on root folder like the .env.example
+Install adonis cli using npm: `npm i -g @adonisjs/cli`.
 
-Create a mysql database with the same name as informed on .env file
+Configure your .env file on root folder like the .env.example.
+
+Create a mysql database with the same name as informed on .env file.
 
 ## Migrations
 
