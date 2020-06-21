@@ -1,4 +1,4 @@
-# Dare Assessment API - Created by Djulian
+# Dare Assessment API
 
 ## Setup
 
