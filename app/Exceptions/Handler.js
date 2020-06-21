@@ -5,7 +5,10 @@ const BaseExceptionHandler = use('BaseExceptionHandler')
 class ExceptionHandler extends BaseExceptionHandler {
   async handle (error, { request, response }) {
 
-    if (error.name === 'PasswordMisMatchException') {
+    if (error.name === 'HttpException') {
+      return response.status(error.status).send({error: 'Invalid route.'})
+
+    } else if (error.name === 'PasswordMisMatchException') {
       return response.status(error.status).send({error: 'Invalid credentials.'})
 
     } else if (error.name === 'InvalidJwtToken') {
